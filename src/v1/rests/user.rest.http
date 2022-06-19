@@ -1,0 +1,18 @@
+post http://localhost:8000/api/v1/user/register
+Content-Type: application/json
+
+{
+    "email":"conbocuoi6@gmail.com"
+}
+###
+post http://localhost:8000/api/v1/user/otp 
+content-type: application/json
+
+{
+    "email":"conbocuoi6@gmail.com",
+    "name":"sonha1",
+    "otp":"098576"
+}
+
+
+
